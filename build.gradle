@@ -29,5 +29,14 @@ dependencies {
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
+
+    // Spring MQTT
+    compile("org.springframework.integration:spring-integration-mqtt:4.3.0.RELEASE")
+
+    // Boon for JSON
+    compile group: 'io.fastjson', name: 'boon', version: '0.34'
+
+    // Bouncy castle for SSL connection
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk16', version: '1.46'
 }
 
